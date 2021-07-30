@@ -4,7 +4,6 @@
 }
 
 html {
-	min-width: 1920px;
 	scroll-behavior: smooth;
 }
 
@@ -30,7 +29,7 @@ header {
 }
 
 .container {
-	width: var(--container-width);
+	max-width: var(--container-width);
 	padding: 0px var(--container-horizontal-padding) 0px var(--container-horizontal-padding);
 	margin: auto;
 	position: relative;
@@ -85,7 +84,7 @@ header {
 }
 
 .banner__container {
-	width: var(--container-width);
+	max-width: var(--container-width);
 	padding: 350px var(--container-horizontal-padding) 350px var(--container-horizontal-padding);
 	margin: auto;
 	text-align: center;
@@ -120,7 +119,7 @@ header {
 }
 
 .about__container {
-	width: var(--container-width);
+	max-width: var(--container-width);
 	padding: 100px var(--container-horizontal-padding) 100px var(--container-horizontal-padding);
 	margin: auto;
 }
@@ -174,7 +173,7 @@ header {
 }
 
 .work__container {
-	width: var(--container-width);
+	max-width: var(--container-width);
 	padding: 100px var(--container-horizontal-padding) 100px var(--container-horizontal-padding);
 	margin: auto;
 	text-align: center;
@@ -218,7 +217,7 @@ header {
 }
 
 .contact__container {
-	width: var(--container-width);
+	max-width: var(--container-width);
 	padding: 100px var(--container-horizontal-padding) 100px var(--container-horizontal-padding);
 	margin: auto;
 	text-align: center;
@@ -242,7 +241,7 @@ header {
 }
 
 .footer {
-	width: var(--container-width);
+	max-width: var(--container-width);
 	padding: 45px var(--container-horizontal-padding) 45px var(--container-horizontal-padding);
 	margin: auto;
 	font-weight: lighter;
@@ -343,6 +342,19 @@ header {
 	.footer {
 		padding: 50px 30px;
 		text-align: center;
+	}
+}
+
+@media (max-width: 1920px) {
+	.container {
+		max-width: var(--container-width);
+		padding: 0;
+		margin: auto;
+	}
+	.container__logo {
+		display: block;
+		padding: 0;
+		margin: auto;
 	}
 }
 
