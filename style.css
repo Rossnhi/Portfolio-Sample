@@ -345,7 +345,7 @@ header {
 	}
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 440px){
 	.container {
 		max-width: var(--container-width);
 		padding: 0;
