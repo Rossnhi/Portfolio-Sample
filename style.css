@@ -1,6 +1,6 @@
 :root {
-	--container-width: 1170px ;
-	--container-horizontal-padding: 375px;
+	--container-width: 60.9375vw;
+	--container-horizontal-padding: 19.53125vw;
 }
 
 html {
@@ -55,7 +55,7 @@ header {
 	vertical-align: top;
 	list-style-type: none;
 	margin: 0px;
-	padding: 65px 0px 65px 0px;
+	padding: min(3.385417vw, 65px) 0px min(3.385417vw, 65px) 0px;
 }
 
 .container__menu-items {
@@ -119,15 +119,15 @@ header {
 }
 
 .about__container {
-	max-width: var(--container-width);
 	padding: 100px var(--container-horizontal-padding) 100px var(--container-horizontal-padding);
 	margin: auto;
+	max-width: 1170px;
 }
 
 .about__heading {
 	display: inline-block;
 	vertical-align: top;
-	padding: 0px 220px 0px 0px;
+	padding: 0px min(calc(20.572917vw - 174.067px), 220px) 20px 0px;
 	margin: 0px;
 	font-size: 36px;
 	font-weight: 600;
@@ -136,6 +136,7 @@ header {
 .about__description {
 	display: inline-block;
 	vertical-align: top;
+	width: 40vw;
 	max-width: 771px;
 }
 
