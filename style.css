@@ -31,7 +31,7 @@ header {
 
 .container {
 	width: var(--container-width);
-	padding: 0px var(--container-horizontal-padding) 0px var(--container-gorizontal-padding);
+	padding: 0px var(--container-horizontal-padding) 0px var(--container-horizontal-padding);
 	margin: auto;
 	position: relative;
 }
